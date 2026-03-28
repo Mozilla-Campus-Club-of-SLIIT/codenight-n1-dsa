@@ -67,3 +67,38 @@ System.out.println(arr[0]);
 >
 > Try to print it using your language of choice 😎
 
+---
+---
+
+### Quiz time!
+
+We learned about languages that have 0 based indexes. But are there languages that have 1 based index? (first index is 1)?
+
+For this quiz, you will have to do a little research 🤓
+
+<Quiz :question="{
+  text: 'Which of the following languages have 1-based indexes?',
+  options: [
+    { id: 1, text: 'Java' },
+    { id: 2, text: 'Lua' },
+    { id: 3, text: 'R' },
+    { id: 4, text: 'Go' },
+    { id: 5, text: 'Matlab'}
+  ],
+  answer: [2, 3, 5]
+}" />
+
+---
+---
+
+### Useful array references
+
+- [Arrays in Data Structure: Types, Uses & Examples (wscubetech.com)](https://www.wscubetech.com/resources/dsa/array-data-structure)
+    - includes:
+        - arrays in C, C++
+        - types of arrays (1 dimensional, 2 dimensional or multi-dimensional)
+        - advanced operations on array (must read!)
+
+- [MDN Javascript array reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- [Java Arrays class Oracle documentation](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Arrays.html)
+- [Python list reference](https://docs.python.org/3/tutorial/datastructures.html) 
