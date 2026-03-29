@@ -32,3 +32,15 @@ src: ./pages/data-structures.md
 ---
 src: ./pages/arrays.md
 ---
+
+---
+src: ./pages/sets.md
+---
+
+---
+src: ./pages/maps.md
+---
+
+---
+src: ./pages/stacks.md
+---
