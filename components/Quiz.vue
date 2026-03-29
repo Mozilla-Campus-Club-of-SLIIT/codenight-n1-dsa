@@ -44,7 +44,7 @@ function checkAnswer() {
 </script>
 
 <template>
-  <div class="quiz-container">
+  <div class="container flex flex-col gap-1">
     <p class="question-text">{{ props.question.text }}</p>
 
     <div class="options">
@@ -63,7 +63,7 @@ function checkAnswer() {
       </label>
     </div>
 
-    <button class="check-btn" @click="checkAnswer">Check Answer</button>
+    <button class="button" @click="checkAnswer">Check Answer</button>
 
     <p v-if="showResult" :class="isCorrect ? 'result correct' : 'result wrong'">
       {{ isCorrect ? 'Correct!' : 'Wrong!' }}
@@ -72,16 +72,6 @@ function checkAnswer() {
 </template>
 
 <style scoped>
-.quiz-container {
-  padding: 1rem;
-  background: var(--bg-2);
-  border-radius: 6px;
-  border: 1px solid var(--border);
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-
 .question-text {
   font-weight: 600;
   color: var(--text);
@@ -101,21 +91,6 @@ function checkAnswer() {
 .options label.selected {
   background: var(--bg-3);
   border-radius: 4px;
-}
-
-.check-btn {
-  padding: 0.5rem 1rem;
-  font-weight: 600;
-  background: var(--orange);
-  color: var(--text);
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  align-self: flex-start;
-}
-
-.check-btn:hover {
-  opacity: 0.85;
 }
 
 .result.correct {
