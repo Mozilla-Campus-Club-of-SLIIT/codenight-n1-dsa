@@ -66,3 +66,7 @@ src: ./pages/searching.md
 ---
 src: ./pages/sorting.md
 ---
+
+---
+src: ./pages/recursion.md
+---
