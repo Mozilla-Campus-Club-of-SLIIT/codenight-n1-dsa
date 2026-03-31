@@ -47,4 +47,22 @@ src: ./pages/queues.md
 
 ---
 src: ./pages/stacks.md
+
+---
+---
+
+<div class="grid items-center justify-center h-full">
+  <h1 class="text-3xl text-white text-center">Algorithms</h1>
+</div>
+
+---
+src: ./pages/algorithms.md
+---
+
+---
+src: ./pages/searching.md
+---
+
+---
+src: ./pages/sorting.md
 ---

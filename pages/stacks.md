@@ -103,5 +103,3 @@ System.out.println(stack);
     :actions="['stack.push(1)', 'stack.pop()', 'console.log(stack)', 'console.log(stack.length)']"
 />
 
----
----
