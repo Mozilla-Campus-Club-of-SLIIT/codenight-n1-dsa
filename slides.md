@@ -42,5 +42,9 @@ src: ./pages/maps.md
 ---
 
 ---
+src: ./pages/queues.md
+---
+
+---
 src: ./pages/stacks.md
 ---

@@ -88,6 +88,8 @@ System.out.println("value of b is " + map.get("b"));
     - [Java HashMap class Oracle reference](https://docs.oracle.com/javase/8/docs/api/java/util/HashMap.html)
     - [Java TreeMap class Oracle reference](https://docs.oracle.com/javase/8/docs/api/java/util/TreeMap.html)
     - Java has many implementations of Map for different needs (ordered, sorted, concurrent)
+- [W3Schools HashMaps](https://www.w3schools.com/dsa/dsa_data_hashmaps.php)
+    - Interactive examples
 - [Hash Tables | What, Why & How to Use Them (khalilstemmler.com)](https://khalilstemmler.com/blogs/data-structures-algorithms/hash-tables/)
     - Explores how hash tables work behind the scenes!
     - More examples!

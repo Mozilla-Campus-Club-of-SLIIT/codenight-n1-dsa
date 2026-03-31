@@ -102,3 +102,13 @@ For this quiz, you will have to do a little research 🤓
 - [MDN Javascript array reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 - [Java Arrays class Oracle documentation](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Arrays.html)
 - [Python list reference](https://docs.python.org/3/tutorial/datastructures.html) 
+
+> **Pro tip!**
+>
+> Use `dir` and `help` method of python to see what methods are available for a certain object
+>
+>
+> eg:
+> ```py
+> >>> dir(arr)
+> ```
