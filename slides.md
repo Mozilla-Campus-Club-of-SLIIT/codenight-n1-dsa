@@ -77,4 +77,4 @@ src: ./pages/snake-game.md
 
 ---
 ---
-That's all!
+<iframe src="https://app.sli.do/event/m45T2gtgjaQU7YHtZcbXsk" height="100%" width="100%" frameBorder="0" allow="clipboard-write" title="Slido"></iframe>
