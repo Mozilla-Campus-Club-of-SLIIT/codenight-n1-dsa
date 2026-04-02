@@ -6,3 +6,6 @@ dist
 .remote-assets
 components.d.ts
 .env
+.vercel
+.env*.local
+snippets

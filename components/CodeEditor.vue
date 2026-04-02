@@ -49,6 +49,8 @@ onMounted(() => {
             ev.code === "ArrowLeft" ||
             ev.code === "ArrowRight" ||
             ev.code === "ArrowUp" ||
+            ev.code === "ArrowDown" ||
+            ev.code === "Tab" ||
             ev.altKey || ev.metaKey || ev.shiftKey || ev.ctrlKey) return
         ev.stopPropagation()
     })

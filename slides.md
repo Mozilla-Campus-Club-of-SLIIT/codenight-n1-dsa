@@ -70,3 +70,11 @@ src: ./pages/sorting.md
 ---
 src: ./pages/recursion.md
 ---
+
+---
+src: ./pages/snake-game.md
+---
+
+---
+---
+That's all!
