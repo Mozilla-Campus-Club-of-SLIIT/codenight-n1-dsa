@@ -3,7 +3,7 @@
 - Also known as **dictionaries** (python), **tables** (lua), **associative arrays** (PHP)
 
 <div align="center" class="my-5">
-    <img src="https://khalilstemmler.com/img/blog/data-structures/hash-tables/hash-table.png" alt="hash table" width="400" />
+    <img src="/hash-table.png" alt="hash table" width="400" />
     <span class="c-gray italic">An illustration of how hash tables work behind the scenes (credits: khalilstemmler.com)</span>
 </div>
 
