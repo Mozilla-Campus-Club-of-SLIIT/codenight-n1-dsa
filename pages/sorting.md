@@ -62,21 +62,21 @@ We got to know many sorting algorithms so far. But practically, we never impleme
 
 - In javascript
 ```js {monaco-run} {autorun:false}
-const arr = [ 5, 42, 3, 1, 69, 67, 120, 95 ]
+const arr = [ 5, 78, 3, 1, 69, 84, 67, 95 ]
 arr.sort()
 console.log(arr)
 ```
 
 - In python
 ```python {monaco-run} {autorun:false}
-arr = [ 5, 42, 3, 1, 69, 67, 120, 95 ]
+arr = [ 5, 78, 3, 1, 69, 84, 67, 95 ]
 arr.sort()
 print(arr)
 ```
 
 - In java
 ```java {monaco-run} {autorun:false}
-ArrayList<Integer> arr = new ArrayList<Integer>(Arrays.asList(5, 42, 3, 1, 69, 67, 120, 95));
+ArrayList<Integer> arr = new ArrayList<Integer>(Arrays.asList(5, 78, 3, 1, 69, 84, 67, 95));
 arr.sort(null); // why do we use null? 🤔
 System.out.println(arr);
 ```

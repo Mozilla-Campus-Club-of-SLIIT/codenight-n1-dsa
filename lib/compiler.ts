@@ -1,18 +1,14 @@
 export const executeCode = async (compiler, code) => {
-  const response = await fetch(
-    "https://corsproxy.io/?https://api.onlinecompiler.io/api/run-code-sync",
-    {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: import.meta.env.VITE_ONLINE_COMPILER_API_KEY ?? "",
-      },
-      body: JSON.stringify({
-        compiler,
-        code,
-      }),
+  const response = await fetch("/api/compile", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
     },
-  );
+    body: JSON.stringify({
+      compiler,
+      code,
+    }),
+  });
   const result = await response.json();
   if (result.error) throw result.error;
   return result.output;
@@ -30,5 +26,5 @@ export const executeJava = async (code) =>
       public static void main(String[] args) {
         ${code}
       }
-    }`
-  )
+    }`,
+  );
