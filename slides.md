@@ -2,9 +2,11 @@
 theme: default
 highlighter: shiki
 lineNumbers: true
-title: DSA — SLIIT Mozilla Campus Club
+title: DSA | N1 Codenight (sliitmozilla)
 transition: slide-left
 mdc: true
+colorSchema: dark
+favicon: ./favicon.ico
 ---
 <div class="flex flex-col items-center justify-center h-full gap-6">
   <img src="/logo.png" class="w-64" />
