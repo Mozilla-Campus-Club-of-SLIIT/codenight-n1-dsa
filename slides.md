@@ -20,6 +20,14 @@ favicon: ./favicon.ico
 ---
 src: ./pages/about-speaker.md
 
+
+---
+---
+
+<div align="center">
+<img src="/qrcode.svg" width="400" />
+</div>
+
 ---
 ---
 
